@@ -1,0 +1,17 @@
+#blocklist, #addedlist {
+	width: 250px;
+	overflow: scroll;
+	display:inline-block;
+	height: 500px;
+}
+
+a.list-added-block:hover {
+	background-color: #D9534F;
+	color: white;
+}
+
+#generation-area {
+	font-family: monospace;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
