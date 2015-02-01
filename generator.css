@@ -5,6 +5,11 @@
 	height: 500px;
 }
 
+#search-input {
+	margin-left: 10px;
+	width:220px;
+}
+
 a.list-added-block:hover {
 	background-color: #D9534F;
 	color: white;
