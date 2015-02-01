@@ -894,7 +894,7 @@ var blocks = [
     name: "Glitch Stone (info_reserved6)",
     damage: 0,
     id: 255
-},
+}
 ];
 
 
@@ -974,5 +974,12 @@ $(document.body).ready(function() {
         if (conf) {
             resetList();
         }
+    });
+
+    window.addEventListener("beforeunload", function(e) {
+        var conf = "If you leave, you will lose all progress!";
+
+        (e || window.event).returnValue = conf;
+        return conf;
     });
 });
