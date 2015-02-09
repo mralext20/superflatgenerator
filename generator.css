@@ -3,6 +3,7 @@
 	overflow: scroll;
 	display:inline-block;
 	height: 500px;
+	overflow-x:hidden;
 }
 
 #search-input {
